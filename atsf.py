@@ -259,6 +259,7 @@ print("\nPer-step RMSE for h=20:", per_step_rmse)
 
 # Save artifacts
 out_dir = "./ts_forecast_artifacts"
+#out_dir = "C:/Users/Syed Irfan/Documents/ts_forecast_artifacts"
 os.makedirs(out_dir, exist_ok=True)
 report_df.to_csv(os.path.join(out_dir, "report_df.csv"))
 with open(os.path.join(out_dir, "summary.txt"), "w") as f:
