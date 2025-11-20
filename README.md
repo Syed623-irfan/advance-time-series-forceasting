@@ -60,7 +60,7 @@ File	Description
 3.transformers_states.pth	Saved Transformer model weights
 4.plots/	Forecast and training graphs
 
-✔ Final Deliverables
+Final Deliverables
 
 1.Working end-to-end forecasting pipeline
 2.Comparison of classical vs. deep learning models
